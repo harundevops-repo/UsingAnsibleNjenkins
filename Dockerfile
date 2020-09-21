@@ -1,8 +1,8 @@
 FROM tomcat:8.0-alpine
 
-LABEL maintainer="Rashhid"
+LABEL maintainer="Rashid"
 
-ADD ./target/LoginWebApp-1x.war /usr/local/tomcat/webapps/
+ADD ./target/LoginWebApp-1x.war /OPT/tomcat/webapps/
 
 EXPOSE 9090 
 
